@@ -1,0 +1,25 @@
+{
+  "name": "electronjs-notepad",
+  "version": "1.0.0",
+  "description": "a notepad",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^8.2.1",
+    "electron-packager": "^14.2.1"
+  },
+  "build": {
+    "appId": "electron.notepad",
+    "productName": "electronjs-notepad"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-packager . electron-notepad --platform=win32 --arch=x64",
+    "b": "electron-packager .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "Sourav Kunda",
+  "license": "ISC"
+}
